@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url(imagenes/La_noche_estrellada__de_Van_gogh.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 150vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #FFFDFC;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #FFFDFC;
+  display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.menu .navbar ul li a:hover {
+  transform: scale(0.9, 0.9);
+  transition: 0.5s;
+  color: #2600ffb2;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: #F9FAFC;
+  margin-bottom: 35px;
+  transition: 1s;
+}
+
+.header-content h1:hover {
+  cursor: pointer;
+  transform: scale(0.9, 0.9);
+  transition: 1s;
+}
+
+.header-content p {
+  font-size: 30px;
+  color: #C5C5C5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #0816e4b2;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.btn-1:hover {
+  background-color: #4954ebb2;
+}
+
+.linea {
+  background: rgb(0, 0, 0);
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+.vangogh {
+  padding: 100px 0;
+  background-color: #acafbb;
+  position: relative;
+}
+
+.vangogh-content {
+  text-align: center;
+}
+
+.vangogh-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 10px;
+}
+
+.txt-p {
+  font-size: 16px;
+  color: #414247;
+  padding: 0 250px;
+  margin-bottom: 40px;
+}
+
+.vangogh-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.vangogh-1 {
+  padding: 0 25px;
+}
+
+.vangogh-img-1 {
+  cursor: pointer;
+  width: 250px;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.vangogh-img-1:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.vangogh-img-2 {
+  cursor: pointer;
+  width: 350px;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.vangogh-img-2:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.vangogh-img-3 {
+  cursor: pointer;
+  width: 350px;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.vangogh-img-3:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+.vangogh-1 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.vangogh-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.vincent {
+  display: flex;
+}
+
+.vincent-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #e1e2e6;
+}
+
+.vincent-2 {
+  background-image: url(imagenes/vangogh.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  transition: 1s;
+}
+
+.vincent-2:hover {
+  filter: blur(2px);
+  transition: 1s;
+}
+
+.vincent-3 {
+  background-image: url(imagenes/lirios.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  transition: 1s;
+}
+
+.vincent-3:hover {
+  filter: blur(2px);
+  transition: 1s;
+}
+
+.vincent-4 {
+  background-image: url(imagenes/cafe.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  transition: 1s;
+}
+
+.vincent-4:hover {
+  filter: blur(2px);
+  transition: 1s;
+}
+
+.vincent-5 {
+  background-image: url(imagenes/patatas.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  transition: 1s;
+}
+
+.vincent-5:hover {
+  filter: blur(2px);
+  transition: 1s;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+  margin: 25px 0 45px 0;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 15px;
+  transition: 1s;
+}
+
+.footer p:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+@media (max-width:991px) {
+
+  .menu {
+    padding: 30px;
+  }
+
+  .menu label {
+    display: initial;
+    filter: hue-rotate(120deg);
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #414247;
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+
+  #menu:checked~.navbar {
+    display: initial;
+  }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .header-content {
+    padding: 100px 30px;
+  }
+
+  .header-content p {
+    padding: 0;
+  }
+
+  .vangogh {
+    padding: 30px;
+  }
+
+  .vangogh-content h2 {
+    padding: 0;
+    font-size: 50px;
+  }
+
+  .txt-p {
+    padding: 0px;
+  }
+
+  .vangogh-group {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .vangogh-img {
+    display: none;
+  }
+
+  .vangogh p {
+    margin-bottom: 30px;
+  }
+
+  .vincent {
+    flex-direction: row-reverse;
+  }
+
+  .vincent-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .vincent h2 {
+    font-size: 50px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  .footer p {
+    flex-direction: column;
+    text-align: center;
+    transition: 1s;
+  }
+
+  .footer p:hover {
+    transform: scale(0.9, 0.9);
+    transition: 1s;
+  }
+
+
+
+
+
+
+
+}
